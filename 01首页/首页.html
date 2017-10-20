@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
+	    <!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <!--禁止浏览器自动的识别-电话号码-email--->
+	    <meta name="format-detection" content="telephone=no,email=no"/>
+	    <!--是否启用Web全屏-->
+	    <meta name="apple-mobile-web-app-capable" content='yes' />
+	    
+	    <link rel="stylesheet" type="text/css" href="new_file.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css"/>
+	    <link rel="stylesheet" type="text/css" href="swiper 轮播插件/css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="插件/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="插件/iconfont.css"/>
+		
+	    <script type="text/javascript" src="css/bootstrap/js/jquery-3.1.1.min.js" ></script>
+	    <script type="text/javascript" src="css/bootstrap/js/bootstrap.js" ></script>
+	    <script type="text/javascript" src="swiper 轮播插件/js/swiper.min.js" ></script>
+		<title></title>
+	</head>
+	<body>
+		<header>
+			<!--logo部分-->
+			<ul class="shouye_ul_a">
+				<li><img src="img/logo.png"/></li>
+				<li>
+					<div>
+						<p class="glyphicon glyphicon-user"style=" color: #999999;"></p>
+						<p style="color: #999;">我的</p>
+					</div>
+					<div>
+						<p class="glyphicon glyphicon-align-justify"style=" color: #999999;"></p>
+						<p style="color: #999;">导航</p>
+					</div>
+				</li>
+			</ul>
+			<!--轮播-->
+			<div class="swiper-container swiper1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="img/banner2.jpg" width="100%"/>
+					</div>
+					<div class="swiper-slide">
+						<img src="img/banner1.jpg" width="100%"/>
+					</div>
+					<div class="swiper-slide">
+						<img src="img/banner2.jpg" width="100%"/>
+					</div>
+					<div class="swiper-slide">
+						<img src="img/banner3.jpg" width="100%"/>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</header>
+		<!--内容部分-->
+		<article>
+			<!--中间类型-->
+			<ul  class="shouye_ul_b">
+				<li>
+					<img src="img/1首页_spec_09.png"/>
+					<p>装修方案</p>
+				</li>
+				<li>
+					<img src="img/1首页_spec_05.png"/>
+					<p>效果图</p>
+				</li>
+				<li>
+					<img src="img/1首页_spec_07.png"/>
+					<p>设计师</p>
+				</li>
+				<li>
+					<img src="img/1首页_spec_09.png"/>
+					<p>装修工地</p>
+				</li>
+				<li>
+					<img src="img/1首页_spec_15.png"/>
+					<p>装修攻略</p>
+				</li>
+				<li>
+					<img src="img/1首页_spec_17.png"/>
+					<p>装修贷款</p>
+				</li>
+				<li>
+					<img src="img/1首页_spec_18.png"/>
+					<p>免费预约</p>
+				</li>
+				<li>
+					<img src="img/1首页_spec_19.png"/>
+					<p>十秒报价</p>
+				</li>
+			</ul>
+			<!--全屋装修-->
+			<div class="max">
+				<div class="shouye">
+					<p style="font-size:1.1rem;">全屋装修 <span style="font-size:0.55rem;color: #999999;">包设计、包主材、包水电、包施工</span></p>
+				</div>
+				<!--下面的轮播-->
+				<div class="swiper-container swiper1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/1首页_spec_25.png" width="100%"/>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/1首页_spec_25.png" width="100%"/>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<!--标准施工-->
+				<ul   class="shouye_ul_c">
+					<li>
+						<img src="img/1首页_spec_29.png"/>
+						<p>0增项,标准施工</p>
+					</li>
+					<li>
+						<img src="img/1首页_spec_29.png"/>
+						<p>杜绝项目外包</p>
+					</li>
+					<li>
+						<img src="img/1首页_spec_31.png"/>
+						<p>装修贷款</p>
+					</li>
+				</ul>
+				<!--装修预约-->
+				<div class="shouye">
+					<p style="font-size:1rem;">装修预约<span style="font-size: 0.6rem;color: #999999;">&nbsp;免费上门量房,设计方案满意为止</span></p>
+				</div>
+				<div class="inp">
+					<div class="form-group">
+ 			   			<input type="text" class="form-control" id="exampleInputEmail1" placeholder="小区名">
+  					</div>
+  					<div class="form-group">
+ 			   			<input type="text" class="form-control" id="exampleInputEmail1" placeholder="手机号">
+  					</div>
+  					<div>
+				<form class="form-horizontal">
+				  <div class="form-group has-success has-feedback">
+				    <div class="col-sm-2">
+				      <input type="text" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status"placeholder="请填写建筑面积">
+				      <span class="form-control-feedback" aria-hidden="true">m<sup>2</sup></span>
+				    </div>
+				  </div>
+				</form>
+			</div>
+  					<button type="button" class="btn btn-primary btn-lg btn-block btn"style="background: #FEB605; color: white;font-size: 36px;width: 10rem;">立即申请</button>
+				</div>
+				<hr  style="border-bottom: 8px solid #f4f4f4;"/>
+				<!--设计师-->
+				<div class="shouye">
+					<p style="font-size: 1.1rem;">设计师</p>
+				</div>
+				<ul class="shouye_ul_d">
+					<li>
+						<img src="img/1首页_spec_35.png"/>
+						<p class="uld_p1">吴飞柯</p>
+						<p class="uld_p2">优秀</p>
+					</li>
+					<li>
+						<img src="img/1首页_spec_38.png"/>
+						<p class="uld_p1">陆炎龙</p>
+						<p class="uld_p2">主任</p>
+					</li>
+					<li>
+						<img src="img/1首页_spec_40.png"/>
+						<p class="uld_p1">张海建</p>
+						<p class="uld_p2">总监</p>
+					</li>
+					<li>
+						<img src="img/1首页_spec_35.png"/>
+						<p class="uld_p1">陈冲</p>
+						<p class="uld_p2">优秀</p>
+					</li>
+				</ul>
+				<ul class="shouye_ul" style="font-size:28px;color: #39C893;">
+					<li>
+						<p>换一换</p>
+						<p class="glyphicon glyphicon-repeat"></p>
+					</li>
+					<li>
+						<p>更多设计师</p>
+						<p class="glyphicon glyphicon-circle-arrow-right"></p>
+					</li>
+				</ul>
+				<!--效果图-->
+				<div class="shouye">
+					<p style="font-size: 1.1rem;">效果图</p>
+				</div>
+				<img src="img/1首页_spec_44.png" width="100%"/>
+				<ul class="shouye_ul_e">
+					<li><img src="img/1首页_spec_46.png"/></li>
+					<li><img src="img/1首页_spec_48.png"/></li>
+					<li><img src="img/1首页_spec_52.png"/></li>
+					<li><img src="img/1首页_spec_53.png"/></li>
+				</ul>
+				<ul class="shouye_ul" style="font-size:28px;color: #39C893;">
+					<li>
+						<p>换一换</p>
+						<p class="glyphicon glyphicon-repeat"></p>
+					</li>
+					<li>
+						<p>更多效果图</p>
+						<p class="glyphicon glyphicon-circle-arrow-right"></p>
+					</li>
+				</ul>
+				<!--工地直播-->
+				<div class="shouye">
+					<p style="font-size: 1.1rem;">工地直播</p>
+				</div>
+				<img src="img/1首页_spec_56.png" width="100%"/>
+				<p style="font-size: 0.88rem;">重汽嘉泽苑7棟 <span style="background: #39C893;border-radius: 8%;color: white;text-align: center;font-size: 0.6rem;">&nbsp;&nbsp;泥木工程</span></p>
+				<ul class="shouye_ul" style="font-size:28px;color: #39C893;">
+					<li>
+						<p>换一换</p>
+						<p class="glyphicon glyphicon-repeat"></p>
+					</li>
+					<li>
+						<p>更多工地直播</p>
+						<p class="glyphicon glyphicon-circle-arrow-right"></p>
+					</li>
+				</ul>
+				<!--装修攻略-->
+				<div class="shouye">
+					<p style="font-size: 1.1rem;">装修攻略</p>
+				</div>
+				<ul class="shouye_ul_footer">
+					<li>
+						<div><img src="img/1首页_spec_62.png"/></div>
+						<div>
+							<p style="font-size: 0.8rem;">房子交付要验房,验房师是做什么的</p>
+							<div style="display: flex;justify-content: space-between;font-size: 0.6rem;color: darkgray;">
+								<p class="glyphicon glyphicon-time">2016-07-07</p>
+								<p class="glyphicon glyphicon-eye-open">115</p>
+							</div>
+							
+						</div>
+					</li>
+					<li>
+						<div><img src="img/1首页_spec_59.png"/></div>
+						<div>
+							<p style="font-size: 0.8rem;">能让你涨工资的家居风水</p>
+							<div style="display: flex;justify-content: space-between;font-size: 0.6rem;color: darkgray;">
+								<p class="glyphicon glyphicon-time">2016-07-07</p>
+								<p class="glyphicon glyphicon-eye-open">115</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div><img src="img/1首页_spec_62.png"/></div>
+						<div>
+							<p style="font-size: 0.8rem;">遇到有这样房子的男人就嫁了吧</p>
+							<div style="display: flex;justify-content: space-between;font-size: 0.6rem;color: darkgray;">
+								<p class="glyphicon glyphicon-time">2016-07-07</p>
+								<p class="glyphicon glyphicon-eye-open">115</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="shouye_ul" style="font-size:28px;color: #39C893;">
+					<li>
+						<p>换一换</p>
+						<p class="glyphicon glyphicon-repeat"></p>
+					</li>
+					<li>
+						<p>更多装修攻略</p>
+						<p class="glyphicon glyphicon-circle-arrow-right"></p>
+					</li>
+				</ul>
+					<p class="shoye_p">
+						房先森互联网家装有别于传统装修公司与其他装修中介平台,以自营模式整合设计师与项目经理,杜绝项目装包外包,利用互联网将工地进行在线全景直播,通过去中间环节,提供装修套餐+个性化定制服务。
+					</p>
+				</div>	
+				<ul class="shoye_footer">
+					<div>
+					<li class="glyphicon glyphicon-remove"></li>
+					<li><img src="img/quoten_bottom.png"width="80%"/></li>
+					<li>免费获取报价</li>			
+				</div>
+				<div  style="width: 100%;background: #282828;">
+					<img src="img/1首页_spec_66.png" />
+				</div>
+				</ul>
+		</article>
+	</body>
+	<script type="text/javascript">
+	(function(doc, win) {
+			var docEl = doc.documentElement, //根元素html
+				//判断窗口有没有orientationchange这个方法，有就赋值给一个变量，没有就返回resize方法。
+				resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+				recalc = function() {
+					var clientWidth = docEl.clientWidth;
+					if(!clientWidth) return;
+					//把document的fontSize大小设置成跟窗口成一定比例的大小，从而实现响应式效果。
+					docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+				};
+			//alert(docEl)
+			if(!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false); //addEventListener事件方法接受三个参数：第一个是事件名称比如点击事件onclick，第二个是要执行的函数，第三个是布尔值
+			doc.addEventListener('DOMContentLoaded', recalc, false) //绑定浏览器缩放与加载时间
+		})(document, window);
+			//		轮播
+			var swiper=new Swiper(".swiper1",{
+					autoplay:"500",
+					loop:true,
+					pagination: ".swiper-pagination",
+					paginationClickable: true
+			})
+
+	</script>
+</html>

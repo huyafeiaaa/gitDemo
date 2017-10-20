@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body, html {
+  width: 100%; }
+
+header {
+  width: auto;
+  margin: 0 8px;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center; }
+  header img {
+    height: 0.77rem;
+    width: 2.16rem;
+    margin-left: 0.18rem; }
+  header .div_center {
+    font-size: 0.36rem; }
+  header .div_rignt {
+    font-size: 0.22rem;
+    display: flex;
+    color: #999999;
+    align-items: center; }
+    header .div_rignt div {
+      margin-left: 0.2rem; }
+    header .div_rignt .one {
+      font-size: 0.45rem; }
+    header .div_rignt .tow {
+      font-size: 0.45rem; }
+
+.artical {
+  width: 100%;
+  height: 9.5rem;
+  background: gainsboro; }
+  .artical .div {
+    margin: 0 8px;
+    overflow: hidden; }
+    .artical .div .top {
+      box-sizing: border-box;
+      margin-top: 0.25rem; }
+      .artical .div .top img {
+        width: 100%;
+        height: 100%; }
+      .artical .div .top .right {
+        display: flex;
+        background: white;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: -19px;
+        height: 1.48rem;
+        padding-bottom: 0.1rem; }
+        .artical .div .top .right span {
+          color: gainsboro; }
+        .artical .div .top .right .a {
+          font-size: 0.36rem;
+          margin-top: 0.3rem; }
+        .artical .div .top .right .b {
+          font-size: 0.28rem;
+          color: deeppink;
+          margin-top: 0.3rem; }
+        .artical .div .top .right .left {
+          height: 0.8rem;
+          width: 2.14rem;
+          font-size: 0.28rem;
+          background: #FF4351;
+          line-height: 0.8rem;
+          text-align: center;
+          border-bottom-left-radius: 50%;
+          border-top-left-radius: 50%; }
+
+.bottom {
+  font-size: 0.28rem;
+  margin: 0.2rem 8px;
+  text-indent: 0.5rem; }
+
+.bt {
+  font-size: 0.28rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+  margin-top: 0.3rem; }
+  .bt span {
+    color: #2BB281; }
+
+.ul2 {
+  margin: 0 8px;
+  font-size: 0.36rem;
+  display: flex; }
+  .ul2 li {
+    width: 25%;
+    text-align: center; }
+  .ul2 .li {
+    color: #2BB281; }
+
+.div_bt {
+  height: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gainsboro;
+  font-size: 0.22rem; }
+
+.tiao {
+  width: 100%;
+  height: 0.18rem;
+  margin-top: 0.36rem;
+  background: #eaeaea; }
+
+/*# sourceMappingURL=scss.css.map */

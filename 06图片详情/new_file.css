@@ -1,0 +1,56 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "微软雅黑"; }
+
+*:focus {
+  outline: none; }
+
+.aa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+html, body {
+  width: 100%;
+  margin: auto; }
+
+.shouye_ul_a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.45rem;
+  color: darkgray;
+  text-align: center; }
+
+.max {
+  width: 100%;
+  background: #202020;
+  padding: 8px; }
+  .max img {
+    margin-top: 1rem; }
+  .max p {
+    margin-top: 0.7rem; }
+
+.shoye_p {
+  text-indent: 2em;
+  padding: 8px;
+  font-size: 0.36rem;
+  color: #333333;
+  border-bottom: 0.2rem solid lightgray; }
+
+.xq_footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 1rem;
+  width: 100%;
+  background: rgba(254, 106, 115, 0.8);
+  color: white;
+  font-size: 0.36rem;
+  height: 1rem; }
+
+/*# sourceMappingURL=new_file.css.map */

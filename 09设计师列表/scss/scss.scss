@@ -1,0 +1,135 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+}
+header{
+    width: auto;
+    margin: 0 8px;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    img{
+        height: 0.77rem;
+        width: 2.16rem;
+        margin-left: 0.18rem;
+    }
+    .div_center{
+        font-size: 0.36rem;
+    }
+    .div_rignt{
+        font-size: 0.22rem;
+        display: flex;
+        color: #999999;
+        align-items: center;
+        div{margin-left: 0.2rem;}
+        .one{font-size: 0.45rem;}
+        .tow{font-size: 0.45rem;}
+    }
+}
+.hr{
+    width: 100%;
+    border: 1px solid gainsboro;    
+}
+.ul{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    align-items: center;
+    li{
+        width: 25%;
+        border-right: 1px solid gainsboro;
+        font-size: 0.36rem;
+        height: 0.4rem;
+        span{
+            font-size: 0.45rem;
+            color: #2BB281;
+        }
+    }
+    li:last-child{
+        border: none;
+    }
+}
+.container{
+    width: auto;
+    margin: 0 8px;
+    .nr{
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid gainsboro;
+        img{
+            width: 1.8rem;
+            height: 1.8rem;
+        }
+        .div{display: flex;justify-content: space-between;}
+        .right{
+            font-size: 0.28rem;
+            div{margin-bottom: 0.1rem;}
+            .c{font-size: 0.36rem;}
+            .s{color: gold;}
+            .f{color: gainsboro;}
+        }
+    }
+}
+.center{
+    width: auto;
+    margin: 0.2rem 16px;
+    font-size: 0.36rem;
+    display: flex;
+    .left{
+        width: 33%;
+        height: 0.82rem;
+        line-height: 0.82rem;
+        text-align: center;
+        background: gainsboro;
+    }
+    .cent{
+        width: 33%;
+        height: 0.82rem;
+        line-height: 0.82rem;
+        text-align: center;
+        border: 1px solid gainsboro;
+    }
+    .right{
+        width: 33%;
+        height: 0.82rem;
+        line-height: 0.82rem;
+        text-align: center;
+        background: #2BB281;
+    }
+}
+.tiao{width: 100%;height: 0.18rem;margin-top: 0.3rem;background: #eaeaea;}
+.bottom{
+    font-size: 0.28rem;
+    margin: 0.2rem 8px;
+    text-indent: 0.5rem;
+}
+.bt{
+    font-size: 0.28rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+    margin-top: 0.3rem;
+    span{color: #2BB281;}
+}
+.ul2{
+    margin: 0 8px;
+    font-size: 0.36rem;
+    display: flex;
+    li{
+        width: 25%;
+        text-align: center;
+    }
+    .li{
+        color: #2BB281;
+    }
+}
+

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+
+		<script src="bootstrap/js/jquery-3.1.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;list-style: none;}
+			header{
+				width: 100%;height: 3.5rem;text-align: center;
+				display: flex ;justify-content: space-between;
+				box-sizing: border-box;padding: 0.5rem 0.5625rem 0.5rem 0.5625rem;
+				border-bottom: 0.625rem solid #F4F4F4;
+			}	
+			header img{width: 100%;}	
+			header div{width: 33%;}	
+			header div:nth-of-type(3){
+				display: flex;color: #999999;text-align: center;
+				font-size: 0.6875rem;justify-content: space-between;
+				width: 30%;
+			}
+			.icon-nav{font-size: 0.8rem;}
+			.icon-user{font-size: 0.8rem;}
+			.bao699{width: 100%;display: flex;height:8rem ;justify-content: space-around;}
+			.bao699 img{width: 100%;height: 6.09rem;margin: 1.125rem 0 0.93rem 0.78rem;}
+			.bao699_p{margin-left: 0.78rem;color: #999999;font-size: 0.55rem;margin: 1.125rem 0 0.93rem 0.78rem;}
+			.bao699_p p:nth-of-type(1){color: black;}
+			.bao699_p p:nth-of-type(2){margin:0 0 1rem 0 ;}
+			.bao699_p p:nth-of-type(3){margin:0 0 1rem 0 ;}
+			.jingz{width: 100%;font-size: 0.625rem;box-sizing: border-box;padding:0 0 0.62rem 0.78rem;border-bottom: 0.625rem solid #F4F4F4;}
+			.tao_can{
+				width: 100%;height: 3.125rem;
+				display: flex;justify-content: space-around;border-bottom:1px #E9E9E9 solid ;
+				box-sizing: border-box;padding-top:0.8rem ;
+			}
+			.tao_can div{border-right:1px #E9E9E9 solid ;text-align: center;width: 25%;font-size: 0.875rem;height: 1.68rem;line-height: 1.68rem;}
+			.gong_chang{width: 100%;border-bottom: 0.625rem solid #F4F4F4;padding-bottom: 1rem;}
+			.gong_chang img{
+				width: 100%;
+			}
+			.jian_jie{
+				text-indent: 0.7rem;
+				box-sizing: border-box;padding: 1.031rem 0.78rem 1.09rem 0.5625rem;
+				font-size: 0.78rem;border-bottom: 0.625rem solid #F4F4F4;
+			}
+			footer>div:nth-of-type(1){width:70%;text-align: center;margin:0 auto;margin: 1.21rem 0 1.21rem 2.84rem;}
+			footer>div:nth-of-type(2){width: 100%;display: flex;justify-content: space-around;}
+			footer>div:nth-of-type(3){width: 100%;}
+			footer>div:nth-of-type(3)>img{width: 100%;}
+			.chu_ping{
+				width: ;
+			}
+		</style>
+	</head>
+	<script>
+		(function(doc, win) {
+			var docEl = doc.documentElement, //根元素html
+				//判断窗口有没有orientationchange这个方法，有就赋值给一个变量，没有就返回resize方法。
+				resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+				recalc = function() {
+					var clientWidth = docEl.clientWidth;
+					if(!clientWidth) return;
+					//把document的fontSize大小设置成跟窗口成一定比例的大小，从而实现响应式效果。
+					docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+				};
+			//alert(docEl)
+			if(!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false); //addEventListener事件方法接受三个参数：第一个是事件名称比如点击事件onclick，第二个是要执行的函数，第三个是布尔值
+			doc.addEventListener('DOMContentLoaded', recalc, false) //绑定浏览器缩放与加载时间
+		})(document, window);
+	</script>
+
+	<body>
+		<!--头部-->
+		<header>
+			<div><img src="img/logo.png" /></div>
+			<div style="font-size: 0.8rem;margin-top: 0.3rem;">装修方案</div>
+			<div class="wd">
+				<div><span class="icon iconfont icon-user"></span>
+					<p>我的</p>
+				</div>
+				<div><span class="icon iconfont icon-nav"></span>
+					<p>导航</p>
+				</div>
+			</div>
+		</header>
+		
+		<article>
+			<div class="bao699">
+				<div style="width: 40%;"><img src="img/14方案详情_spec_03.png"/></div>
+				<div class="bao699_p">
+					<p style="font-size: 1rem;">699全包精装套装</p>
+					<p><span>价格：</span><span style="color: #ff4351 ;font-size: 0.75rem;">￥699元/m<sup>2</sup></span></p>
+					<p><span>已预约：</span><span style="color: #000000;">221套</span></p>
+					<p><span>价格：</span><span style="color: red;">全包套餐火爆预约中</span></p>
+				</div>
+			</div>
+			<div class="jingz">
+				精装全包套餐，包设计/包主材/包施工/包监理。采用知名工艺,一线主材，工厂直供F2C模式
+			</div>
+			
+			<!--top切换1-->
+			<div class="tao_can">
+				<div style="border-bottom: 0.1562rem solid green;padding-bottom:2.2rem;">套餐详情</div>
+				<div>配置清单</div>
+				<div>施工工艺</div>
+				<div>服务流程</div>
+			</div>
+			
+			<!--工厂直销-->
+			<div class="gong_chang">
+				<img src="img/14方案详情_spec_06.png"/>
+				<img src="img/14方案详情_spec_09.png"/>
+				<img src="img/14方案详情_spec_11.png"/>
+				<img src="img/14方案详情_spec_13.png"/>
+			</div>
+			
+			<!--简介-->
+			<div class="jian_jie">
+				房先森互联网家装有别于传统公司与其他装修中介平台，一自营模式整合设计师与项目经理，杜绝项目转包外包，利用互联网将工地进行在线全景直播，通过去中间环节，提供装修套餐+个性制定服务。
+			</div>
+		</article>
+		
+		<footer>
+			<div><span style="color:greenyellow;" class="icon iconfont icon-hot-line"></span>服务热线：400-9977-658</div>
+			<div class="chu_ping">
+				<div style="color:greenyellow;">触屏版</div>
+				<div>电脑版</div>
+				<div>关于我们</div>
+				<div>联系我们</div>
+			</div>
+			<div><img src="img/14方案详情_spec_15.png"/></div>
+			<div><img src="img/14方案详情_spec_02.png" width="100%"/></div>	
+			</div>
+		</footer>
+	</body>
+	<script>
+	</script>
+
+</html>

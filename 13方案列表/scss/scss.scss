@@ -1,0 +1,105 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+}
+header{
+    width: auto;
+    margin: 0 8px;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    img{
+        height: 0.77rem;
+        width: 2.16rem;
+        margin-left: 0.18rem;
+    }
+    .div_center{
+        font-size: 0.36rem;
+    }
+    .div_rignt{
+        font-size: 0.22rem;
+        display: flex;
+        color: #999999;
+        align-items: center;
+        div{margin-left: 0.2rem;}
+        .one{font-size: 0.45rem;}
+        .tow{font-size: 0.45rem;}
+    }
+}
+.artical{
+    width: 100%;
+    height: 9.5rem;
+    background: gainsboro;
+    .div{
+        margin: 0 8px;
+        overflow: hidden;
+        .top{
+            box-sizing: border-box;
+            margin-top: 0.25rem;
+            img{width: 100%;height: 100%;}
+            .right{
+                display: flex;
+                background: white;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: -19px;
+                height: 1.48rem;
+                padding-bottom: 0.1rem;
+                span{color: gainsboro;}
+                .a{font-size: 0.36rem;margin-top: 0.3rem;}
+                .b{font-size: 0.28rem;color: deeppink;margin-top: 0.3rem;}
+                .left{
+                   height: 0.8rem;
+                   width: 2.14rem;
+                   font-size: 0.28rem; 
+                   background: #FF4351;
+                   line-height: 0.8rem;
+                   text-align: center;
+                   border-bottom-left-radius: 50%;
+                   border-top-left-radius: 50%;
+                }
+            }
+            
+        }
+    }
+}
+.bottom{
+    font-size: 0.28rem;
+    margin: 0.2rem 8px;
+    text-indent: 0.5rem;
+}
+.bt{
+    font-size: 0.28rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+    margin-top: 0.3rem;
+    span{color: #2BB281;}
+}
+.ul2{
+    margin: 0 8px;
+    font-size: 0.36rem;
+    display: flex;
+    li{
+        width: 25%;
+        text-align: center;
+    }
+    .li{
+        color: #2BB281;
+    }
+}
+.div_bt{
+    height: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gainsboro;
+    font-size: 0.22rem;
+}
+.tiao{width: 100%;height: 0.18rem;margin-top: 0.36rem;background: #eaeaea;}
